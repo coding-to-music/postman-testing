@@ -190,11 +190,11 @@ Posted data are showing up in the body.
 ![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto14.png   "Title")
 
 
-## How to Parameterize Requests
-## How to Create Postman Tests
-## How to Create Collections
-## How to Run Collections using Collection Runner
-## How to Run Collections using Newman
+### How to Parameterize Requests
+### How to Create Postman Tests
+### How to Create Collections
+### How to Run Collections using Collection Runner
+### How to Run Collections using Newman
 
 # How to Parameterize Requests
 
