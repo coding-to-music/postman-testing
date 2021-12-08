@@ -80,6 +80,8 @@ Below is the Postman Workspace. Let’s explore the step by step process on How 
 
 # How to use Postman to execute APIs
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto7.png "Title")
+
 1. New – This is where you will create a new request, collection or environment.
 2. Import – This is used to import a collection or environment. There are options such as import from file, folder, link or paste raw text.
 3. Runner – Automation tests can be executed through the Collection Runner. This will be discussed further in the next lesson.
@@ -99,44 +101,6 @@ Below is the Postman Workspace. Let’s explore the step by step process on How 
 17. Pre-request Script – These are scripts that will be executed before the request. Usually, pre-request scripts for the setting environment are used to ensure that tests will be run in the correct environment.
 18. Tests – These are scripts executed during the request. It is important to have tests as it sets up checkpoints to verify if response status is ok, retrieved data is as expected and other tests.
 
-![alt text](Isolated.png "Title")
-
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto7.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto8.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto9.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto10.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto11.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto12.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto13.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto14.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto15.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto16.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto17.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto18.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto19.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto20.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto21.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto22.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto23.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto24.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto25.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto26.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto27.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto28.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto29.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto30.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto31.png   "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto32.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto33.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto34.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto35.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto36.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto37.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto38.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto39.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto40.png "Title")
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto41.png "Title")
-
 ## Working with GET Requests
 
 https://jsonplaceholder.typicode.com/users		
@@ -148,6 +112,8 @@ In the workspace
 - You will see 200 OK Message
 - There should be 10 user results in the body which indicates that your test has run successfully.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto8.png "Title")
+
 ## Working with POST Requests
 
 Post requests are different from Get request as there is data manipulation with the user adding data to the endpoint. Using the same data from the previous tutorial in Get request, let’s now add our own user.
@@ -155,9 +121,13 @@ Post requests are different from Get request as there is data manipulation with 
 ### Step 1) 
 Click a new tab to create a new request.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto9.png "Title")
+
 Working with POST Requests
 ### Step 2) 
 In the new tab
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto10.png "Title")
 
 Set your HTTP request to POST.
 Input the same link in request url: https://jsonplaceholder.typicode.com/users
@@ -169,6 +139,8 @@ In Body,
 
 Click raw
 Select JSON
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto11.png   "Title")
 
 Working with POST Requests
 ### Step 4) 
@@ -201,7 +173,11 @@ Copy and paste just one user result from the previous get request like below. En
 ]
 Working with POST Requests
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto12.png   "Title")
+
 `Note`: Online Post request should have the correct format to ensure that requested data will be created. It is a good practice to use Get first to check the JSON format of the request. You can use tools like https://jsonformatter.curiousconcept.com/
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto13.png   "Title")
 
 Working with POST Requests
 ### Step 5) 
@@ -211,6 +187,8 @@ Click Send.
 Status: 201 Created should be displayed
 Posted data are showing up in the body.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto14.png   "Title")
+
 
 ## How to Parameterize Requests
 ## How to Create Postman Tests
@@ -218,13 +196,13 @@ Posted data are showing up in the body.
 ## How to Run Collections using Collection Runner
 ## How to Run Collections using Newman
 
-
-
-
 # How to Parameterize Requests
+
 Data Parameterization is one of the most useful features of Postman. Instead of creating the same requests with different data, you can use variables with parameters. These data can be from a data file or an environment variable. Parameterization helps to avoid repetition of the same tests and iterations can be used for automation testing.
 
 Parameters are created through the use of double curly brackets: {{sample}}. Let’s take a look at an example of using parameters in our previous request:
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto15.png   "Title")
 
 How to Parameterize Requests
 Now let’s create a parameterize get request.
@@ -236,30 +214,44 @@ Input this link: https://jsonplaceholder.typicode.com/users. Replace the first p
 Click send.
 There should be no response since we have not set the source of our parameter.
 
-### How to Parameterize Requests
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto16.png   "Title")
+
+How to Parameterize Requests
+
 ### Step 2) 
 To use the parameter you need to set the environment
 
 Click the eye icon
 Click edit to set the variable to a global environment which can be used in all collections.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto17.png   "Title")
+
 How to Parameterize Requests
 ### Step 3) 
 In variable,
 
 set the name to the url which is https://jsonplaceholder.typicode.com
 click Save.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto18.png   "Title")
+
 How to Parameterize Requests
 ### Step 4) 
 Click close if you see the next screen
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto19.png   "Title")
 
 How to Parameterize Requests
 ### Step 5) 
 Go back to your Get request then click send. There should now be results for your request.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto20.png   "Title")
+
 How to Parameterize Requests
 *Note: Always ensure that your parameters have a source such as an environment variable or data file to avoid errors.
 
 # How to Create Postman Tests
+
 Postman Tests are JavaScript codes added to requests that help you verify results such as successful or failed status, comparison of expected results, etc. It usually starts with pm.test. It can be compared to asserts, verify commands available in other tools.
 
 Let’s do some basic API testing using Postman for our parameterize requests from the previous lesson.
@@ -271,9 +263,13 @@ Switch to the tests tab. On the right side are snippet codes.
 From the snippets section, click on “Status code: Code is 200”.
 The pane is auto-populated
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto21.png   "Title")
+
 API testing
 ### Step 2) 
 Now click Send. The test result should now be displayed.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto22.png   "Title")
 
 API testing
 ### Step 3) 
@@ -281,24 +277,34 @@ Go back to the test tab and let’s add another test. This time we will compare 
 
 From the snippets section, click on “Response body:JSON value check”. We will be checking if Leanne Graham has the userid 1.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto23.png   "Title")
+
 API testing
 ### Step 4)
 
 Replace “Your Test Name” from the code with “Check if user with id1 is Leanne Graham” so that the test name specifies exactly what we want to test.
 Replace jsonData.value with jsonData[0].name. To get the path, check the body in Get result earlier. Since Leanne Graham is userid 1, jsonData is in the first result which should start with 0. If you want to get the second result, use jsonData[1] and so on for succeeding results.
+
+```java
 In to eql, input “Leanne Graham”
 pm.test("Check if user with id1 is Leanne Graham", function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData[0].name).to.eql("Leanne Graham");
 });
+```
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto24.png   "Title")
+
 API testing
 ### Step 5) 
 Click send. There should now be two passed test results for your request.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto25.png   "Title")
+
 API testing
 *Note: There are different kind of tests that can be created in Postman. Try to explore the tool and see what tests will fit your needs.
 
-How to Create Collections
+## How to Create Collections
+
 Collections play an important role in organizing test suites. It can be imported and exported making it easy to share collections amongst the team. In this tutorial, we will learn how to create and execute a collection.
 
 Let’s start in creating a collection:
@@ -306,41 +312,61 @@ Let’s start in creating a collection:
 ### Step 1) 
 Click on the New button at the top left corner of the page.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto26.png   "Title")
+
 How to Create Collections
 ### Step 2) 
 Select Collection. Create collection window should pop up.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto27.png   "Title")
 
 How to Create Collections
 ### Step 3) 
 Input the desired collection name and description then click create. A collection should now be created.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto28.png   "Title")
+
 How to Create Collections
 ### Step 4) 
 Go back to the previous Get request. Click Save
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto29.png   "Title")
 
 How to Create Collections
 ### Step 5)
 
 Select Postman Test Collection.
 Click Save to Postman Test Collection
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto30.png   "Title")
+
 How to Create Collections
 ### Step 6) 
 Postman test collection should now contain one request.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto31.png   "Title")
 How to Create Collections
 ### Step 7) 
 Repeat steps 4-5 for the previous Post request so that collection will now have two requests.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto32.png "Title")
+
 How to Create Collections
-How to Run Collections using Collection Runner
+
+## How to Run Collections using Collection Runner
+
 There are two ways to run a collection which is the Collection Runner and Newman. Let’s begin by executing the collection in Collection Runner.
 
 ### Step 1) 
 Click on the Runner button found at the top of the page next to the Import button.
 
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto33.png "Title")
+
 How to Run Collections using Collection Runner
 ### Step 2) 
 Collection Runner page should appear such as below. Following is the description of various fields
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto34.png "Title")
 
 How to Run Collections using Collection Runner
 ### Step 3) 
@@ -349,6 +375,9 @@ Run your Postman Test Collection by setting up the following:
 Choose Postman test collection- Set iterations as 3
 Set delay as 2500 ms
 Click on Run Postman Test… button
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto35.png "Title")
+
 How to Run Collections using Collection Runner
 ### Step 4) 
 Run Results page should be displayed after clicking the Run button. Depending on the delay, you should see the tests as they execute.
@@ -356,15 +385,21 @@ Run Results page should be displayed after clicking the Run button. Depending on
 Once tests have finished, you can see the test status if it is Passed or Failed and the results per iteration.
 You see Pass status for the Get Requests
 Since we did not have any tests for Post, there should be a message that the request did not have any tests.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto36.png "Title")
+
 How to Run Collections using Collection Runner
+
 You can see how important it is that there are tests in your requests so that you can verify HTTP request status if successful and the data is created or retrieved.
 
 ## How to Run Collections using Newman
+
 Another way to run a collection is via Newman. The main differences between Newman and Collection Runner are the following:
 
-Newman is an add-on for Postman. You will need to install it separately from the Native App.
-Newman uses the command line while Collection Runner has a GUI.
-Newman can be used for continuous integration.
+1. Newman is an add-on for Postman. You will need to install it separately from the Native App.
+2. Newman uses the command line while Collection Runner has a GUI.
+3. Newman can be used for continuous integration.
+
 To install Newman and run our collection from it, do the following:
 
 ### Step 1) 
@@ -378,13 +413,20 @@ Open the command line and enter
 ```
 Newman should now be installed on your computer.
 
-### How to Run Collections using Newman
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto37.png "Title")
+
+How to Run Collections using Newman
+
 ### Step 3) 
 Once Newman has been installed, let’s go back to our Postman workspace.In the Collections box, click on the three dots. Options should now appear. Select Export.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto38.png "Title")
 
 How to Run Collections using Newman
 ### Step 4) 
 Choose Export Collection as Collection v2.1 (Recommended) then click Export.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto39.png "Title")
 
 How to Run Collections using Newman
 ### Step 5) 
@@ -392,6 +434,8 @@ Select your desired location then click Save. It is advisable to create a specif
 
 ### Step 6) 
 We will also need to export our environment. Click on the eye icon beside the environment dropdown in Global, select Download as JSON. Select your desired location then click Save. It is advisable that the environment should be in the same folder as your collection.
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto40.png "Title")
 
 How to Run Collections using Newman
 ### Step 7) 
@@ -411,24 +455,28 @@ Run your collection using this command:
 ```
 Run results should now appear such as below.
 
-How to Run Collections using Newman
-For guide is a reference to some basic Newman codes for execution:
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto41.png "Title")
 
-Run a collection only. This can be used if there is no environment or test data file dependency.
+How to Run Collections using Newman
+
+# For guide is a reference to some basic Newman codes for execution:
+
+1. Run a collection only. This can be used if there is no environment or test data file dependency.
 newman run <collection name>
-Run a collection and environment. The -e indicator is for environment.
+2. Run a collection and environment. The -e indicator is for environment.
 newman run <collection name> -e <environment name>
-Run a collection with desired no. of iterations.
+3. Run a collection with desired no. of iterations.
 newman run <collection name> -n <no.of iterations>
-Run with data file.
+4. Run with data file.
 newman run <collection name> --data <file name>  -n <no.of iterations> -e <environment name>
-Set delay time. This is important as tests may fail if it is run without delay due to requests being started without the previous request completing processing on the endpoint server.
+5. Set delay time. This is important as tests may fail if it is run without delay due to requests being started without the previous request completing processing on the endpoint server.
 newman run <collection name> -d <delay time>
-Summary
-API Testing using Postman: Postman is an application for testing APIs. Postman is one of the most popular tools used in API testing by sending requests to the webserver and getting the response back
-Accessibility, Use of Collections, Collaboration, Continuous Integration, are some of the Key features to learn in Postman
-It’s recommended you create an account in Postman, so your collections are available online
-You can parameterize request in Postman
-You can create Tests to verify a postman request
-Collections can be run using Newman or Collection Runner
+
+## Summary
+- API Testing using Postman: Postman is an application for testing APIs. Postman is one of the most popular tools used in API testing by sending requests to the webserver and getting the response back
+- Accessibility, Use of Collections, Collaboration, Continuous Integration, are some of the Key features to learn in Postman
+- It’s recommended you create an account in Postman, so your collections are available online
+- You can parameterize request in Postman
+- You can create Tests to verify a postman request
+- Collections can be run using Newman or Collection Runner
 
