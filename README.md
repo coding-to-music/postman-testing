@@ -146,6 +146,7 @@ Working with POST Requests
 ### Step 4) 
 Copy and paste just one user result from the previous get request like below. Ensure that the code has been copied correctly with paired curly braces and brackets. Change id to 11 and name to any desired name. You can also change other details like the address.
 
+```java
 [
     {
         "id": 11,
@@ -171,6 +172,7 @@ Copy and paste just one user result from the previous get request like below. En
         }
     }
 ]
+```
 Working with POST Requests
 
 ![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto12.png   "Title")
