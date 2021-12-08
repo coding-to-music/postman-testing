@@ -1,6 +1,15 @@
-# Install Postman for API testing on Ubuntu 20.04
+# Install Postman, GET, POST, Call API's, Parameterize Requests, Tests, Collections Runner using Newman 
+
+Postman Tutorial: How to Install and use Postman for API Testing
+Thomas Hamilton  
+By Thomas Hamilton  
+Updated November 29, 2021  
+
+https://www.guru99.com/postman-tutorial.html
 
 https://learning.postman.com/docs/getting-started/installation-and-updates/#installing-postman-on-linux
+
+https://github.com/coding-to-music/postman-testing
 
 You can install Postman on Linux by manually downloading it, using the Snap store link, or with the command snap install postman.
 
@@ -66,6 +75,67 @@ We will use the following URL for all examples in this Postman tutorial
 ## Postman Workspace
 https://web.postman.co/workspace/My-Workspace
 
+# How to use Postman to execute APIs
+Below is the Postman Workspace. Let’s explore the step by step process on How to use Postman and different features of the Postman tool!
+
+# How to use Postman to execute APIs
+
+1. New – This is where you will create a new request, collection or environment.
+2. Import – This is used to import a collection or environment. There are options such as import from file, folder, link or paste raw text.
+3. Runner – Automation tests can be executed through the Collection Runner. This will be discussed further in the next lesson.
+4. Open New – Open a new tab, Postman Window or Runner Window by clicking this button.
+5. My Workspace – You can create a new workspace individually or as a team.
+6. Invite – Collaborate on a workspace by inviting team members.
+7. History – Past requests that you have sent will be displayed in History. This makes it easy to track actions that you have done.
+8. Collections – Organize your test suite by creating collections. Each collection may have subfolders and multiple requests. A request or folder can also be duplicated as well.
+9. Request tab – This displays the title of the request you are working on. By default, “Untitled Request” would be displayed for requests without titles.
+10. HTTP Request – Clicking this would display a dropdown list of different requests such as GET, POST, COPY, DELETE, etc. In Postman API testing, the most commonly used requests are GET and POST.
+11. Request URL – Also known as an endpoint, this is where you will identify the link to where the API will communicate with.
+12. Save – If there are changes to a request, clicking save is a must so that new changes will not be lost or overwritten.
+13. Params – This is where you will write parameters needed for a request such as key values.
+14. Authorization – In order to access APIs, proper authorization is needed. It may be in the form of a username and password, bearer token, etc.
+15. Headers – You can set headers such as content type JSON depending on the needs of the organization.
+16. Body – This is where one can customize details in a request commonly used in POST request.
+17. Pre-request Script – These are scripts that will be executed before the request. Usually, pre-request scripts for the setting environment are used to ensure that tests will be run in the correct environment.
+18. Tests – These are scripts executed during the request. It is important to have tests as it sets up checkpoints to verify if response status is ok, retrieved data is as expected and other tests.
+
+![alt text](Isolated.png "Title")
+
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto7.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto8.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto9.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto10.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto11.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto12.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto13.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto14.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto15.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto16.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto17.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto18.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto19.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto20.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto21.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto22.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto23.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto24.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto25.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto26.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto27.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto28.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto29.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto30.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto31.png   "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto32.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto33.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto34.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto35.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto36.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto37.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto38.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto39.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto40.png "Title")
+![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto41.png "Title")
 
 ## Working with GET Requests
 
