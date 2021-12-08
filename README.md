@@ -191,23 +191,16 @@ Posted data are showing up in the body.
 
 ![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto14.png   "Title")
 
-
-### How to Parameterize Requests
-### How to Create Postman Tests
-### How to Create Collections
-### How to Run Collections using Collection Runner
-### How to Run Collections using Newman
-
 # How to Parameterize Requests
 
 Data Parameterization is one of the most useful features of Postman. Instead of creating the same requests with different data, you can use variables with parameters. These data can be from a data file or an environment variable. Parameterization helps to avoid repetition of the same tests and iterations can be used for automation testing.
 
 Parameters are created through the use of double curly brackets: {{sample}}. Let’s take a look at an example of using parameters in our previous request:
 
-![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto15.png   "Title")
+![How to Parameterize Requests](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto15.png   "How to Parameterize Requests")
 
-How to Parameterize Requests
-Now let’s create a parameterize get request.
+
+## Now let’s create a parameterize get request.
 
 ### Step 1)
 
@@ -284,11 +277,11 @@ From the snippets section, click on “Response body:JSON value check”. We wil
 API testing
 ### Step 4)
 
-Replace “Your Test Name” from the code with “Check if user with id1 is Leanne Graham” so that the test name specifies exactly what we want to test.
-Replace jsonData.value with jsonData[0].name. To get the path, check the body in Get result earlier. Since Leanne Graham is userid 1, jsonData is in the first result which should start with 0. If you want to get the second result, use jsonData[1] and so on for succeeding results.
+1. Replace “Your Test Name” from the code with “Check if user with id1 is Leanne Graham” so that the test name specifies exactly what we want to test.
+2. Replace jsonData.value with jsonData[0].name. To get the path, check the body in Get result earlier. Since Leanne Graham is userid 1, jsonData is in the first result which should start with 0. If you want to get the second result, use jsonData[1] and so on for succeeding results.
+3. In to eql, input “Leanne Graham”
 
 ```java
-In to eql, input “Leanne Graham”
 pm.test("Check if user with id1 is Leanne Graham", function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData[0].name).to.eql("Leanne Graham");
