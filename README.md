@@ -446,8 +446,58 @@ Now go back to command line and change the directory to where you have saved the
 Run your collection using this command:
 
 ```java
- newman run PostmanTestCollection.postman_collection.json -e Testing.postman_globals.json
+cd postman-tests
+
+ls -l 
+-rw-rw-r-- 1 tmc tmc  438 Dec  9 00:58 Test-Environment.postman_environment.json
+-rw-rw-r-- 1 tmc tmc 5370 Dec  9 00:57 Postman-Test-Collection.postman_collection.json
+
+# original request:
+# newman run PostmanTestCollection.postman_collection.json -e Testing.postman_globals.json
+
+newman run Postman-Test-Collection.postman_collection.json -e Test-Environment.postman_environment.json
 ```
+
+Output
+```java
+newman
+
+Postman Test Collection
+
+→ Users List
+  GET https://jsonplaceholder.typicode.com/users [200 OK, 6.78kB, 141ms]
+  ✓  Status code is 200
+
+→ https://jsonplaceholder.typicode.com/users
+  GET https://jsonplaceholder.typicode.com/users [200 OK, 6.79kB, 24ms]
+  ✓  Status code is 200
+  ✓  Check if user with id1 is Leanne Graham
+
+→ {{url}}/users
+  GET https://jsonplaceholder.typicode.com/users [200 OK, 6.78kB, 22ms]
+  ✓  Status code is 200
+  ✓  Response time is less than 200ms
+
+┌─────────────────────────┬───────────────────┬───────────────────┐
+│                         │          executed │            failed │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              iterations │                 1 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│                requests │                 3 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│            test-scripts │                 3 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│      prerequest-scripts │                 0 │                 0 │
+├─────────────────────────┼───────────────────┼───────────────────┤
+│              assertions │                 5 │                 0 │
+├─────────────────────────┴───────────────────┴───────────────────┤
+│ total run duration: 338ms                                       │
+├─────────────────────────────────────────────────────────────────┤
+│ total data received: 16.93kB (approx)                           │
+├─────────────────────────────────────────────────────────────────┤
+│ average response time: 62ms [min: 22ms, max: 141ms, s.d.: 55ms] │
+```
+
 Run results should now appear such as below.
 
 ![alt text](https://raw.githubusercontent.com/coding-to-music/postman-testing/main/images/011119_1057_PostmanTuto41.png "Title")
