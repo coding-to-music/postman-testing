@@ -496,6 +496,7 @@ Postman Test Collection
 │ total data received: 16.93kB (approx)                           │
 ├─────────────────────────────────────────────────────────────────┤
 │ average response time: 62ms [min: 22ms, max: 141ms, s.d.: 55ms] │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 Run results should now appear such as below.
